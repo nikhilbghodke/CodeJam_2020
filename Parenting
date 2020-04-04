@@ -23,7 +23,7 @@ public class Solution {
             }
             
             //copy the original array and then sorting it, i am not sorting the original arry because when gving the output 
-            //we need to give have the order in which they were submited to u
+            //we need to  retain the order in which they were submited to us
             int[][] sorted= activities.clone();
             //sorted activities according to their start time
             Arrays.sort(sorted, new StartComparator());
